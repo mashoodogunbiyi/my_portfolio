@@ -1,19 +1,21 @@
-# Data Engineering Portfolio Website Plan
+# Data Engineering and Analytics Portfolio Website Plan
 
 ## 1. Goal
 
-Create a professional portfolio website for Mashood Ogunbiyi that presents his data engineering skills, selected projects, relevant experience, and engineering background to recruiters and hiring managers.
+I will create a professional portfolio website for myself, Mashood Ogunbiyi, that positions me primarily as a data engineer while showing my ability to work as a data analyst. The site will connect my technical portfolio with my aerospace engineering background and experience communicating technical information.
 
 The site should make these points clear within the first few seconds:
 
-- Mashood is a data engineer based in Manchester, UK.
-- He builds reliable cloud data pipelines and analytics platforms.
-- His main tools include Python, SQL, AWS, Airflow, PySpark, Docker, Terraform, and Power BI.
+- I am a Manchester-based data engineer.
+- I build automated data pipelines, cloud data platforms, and analytics solutions.
+- I can also clean, analyse, and visualise data as a data analyst.
+- My main tools include Python, SQL, PySpark, Databricks, Microsoft Azure, AWS, Power BI, and Tableau.
 - Visitors can quickly inspect his projects, download his CV, and contact him.
 
 ## 2. Target Audience
 
 - Recruiters hiring junior or early-career data engineers
+- Recruiters hiring data analysts with strong engineering skills
 - Engineering managers and technical interviewers
 - Potential collaborators and clients
 
@@ -21,11 +23,11 @@ The site should make these points clear within the first few seconds:
 
 Suggested headline:
 
-> Data Engineer building reliable cloud pipelines and analytics platforms.
+> Data Engineer building reliable cloud pipelines and analytics solutions.
 
 Suggested introduction:
 
-> I am a Manchester-based data engineer with experience building ETL pipelines, working with Python and SQL, and using AWS services to organise, process, and validate data. My engineering background brings structured problem-solving and systems thinking to every project.
+> I am a Manchester-based data engineer with experience building automated ETL pipelines, validating complex datasets, and creating analytics solutions with Python, SQL, Microsoft Azure, AWS, and business intelligence tools. I can also work as a data analyst, turning operational data into clear reports, dashboards, and practical insights.
 
 ## 4. Website Structure
 
@@ -52,19 +54,21 @@ Include:
 - Short value statement
 - Primary button: View Projects
 - Secondary button: Download CV
-- Links for GitHub and LinkedIn once supplied
+- GitHub: github.com/mashoodogunbiyi
+- LinkedIn: linkedin.com/in/ogunbiyi-mashood
 
-Use a subtle data-themed visual, such as connected pipeline nodes or a simple flow from source to transformation to warehouse. It should support the content without distracting from it.
+Use a subtle technical visual that connects data sources, ingestion, transformation, storage, validation, and reporting. It should support the content without distracting from it.
 
 ### About
 
 Write a short professional summary that connects:
 
-- Data engineering experience at DreamSolutionX
-- Practical work with pipelines, SQL, Python, validation, and relational databases
+- Data engineering experience at Dream Solution Xtra
+- Data analysis experience at the Nigeria Civil Aviation Authority
+- Practical work with ETL pipelines, SQL, Python, data validation, cloud platforms, and business intelligence
 - MSc Aerospace Engineering from the University of Salford
 - BEng Aeronautical and Astronautical Engineering from Kwara State University
-- Current IT teaching experience and ability to explain technical ideas clearly
+- Current IT support and mentoring experience and the ability to explain technical ideas clearly
 
 Keep this section to two short paragraphs.
 
@@ -72,11 +76,11 @@ Keep this section to two short paragraphs.
 
 Group skills instead of displaying one long list:
 
-- Languages and databases: Python, SQL, MySQL, PostgreSQL
-- Data engineering: ETL/ELT, data modelling, data warehousing, data quality, PySpark, Apache Airflow
-- Cloud and infrastructure: AWS S3, Glue, Lambda, Redshift, IAM, Terraform, Docker
-- Delivery and visualisation: Git, GitHub Actions, GitLab CI, Power BI
-- Security and governance: access control, encryption, anonymisation, validation, auditing
+- Programming and databases: Python, Pandas, NumPy, SQL, MySQL, PostgreSQL, data cleaning, transformation, validation, and data modelling
+- Data engineering and cloud: ETL/ELT pipelines, PySpark, Databricks, Apache Airflow, Azure Data Factory, Azure Synapse Analytics, Azure Data Lake Storage, AWS S3, Glue, Lambda, Redshift, and IAM
+- Infrastructure and delivery: Docker, Terraform, Git, GitHub, GitHub Actions, and GitLab CI
+- Analytics and development: Power BI, DAX, Tableau, Excel, HTML, CSS, and JavaScript
+- Professional: technical documentation, stakeholder communication, requirements gathering, root-cause analysis, training, mentoring, prioritisation, and cross-functional collaboration
 
 Avoid skill percentages or self-rated progress bars. Use clear labels or compact cards.
 
@@ -87,36 +91,37 @@ Feature these three projects prominently.
 #### Biomedical Data Lake and Research Query Platform
 
 - Problem: Organise structured and semi-structured biomedical data for research analysis.
-- Approach: AWS S3, Glue, Redshift, Python ETL, SQL models, validation, and FastAPI.
+- Approach: AWS S3, Glue, Redshift, Python ETL, SQL data models, validation, and FastAPI.
 - Emphasis: Scalable architecture, consistent data, and accessible analytics queries.
-- Add later: Architecture diagram, repository link, screenshots, sample API response, and measurable results.
+- Add later: Architecture diagram, repository link, screenshots, sample API response, pipeline tests, and measurable results.
 
 #### Secure Healthcare Data Pipeline with Governance and Auditing
 
-- Problem: Process sensitive healthcare data while protecting access and integrity.
+- Problem: Process sensitive data while protecting access, integrity, and traceability.
 - Approach: AWS S3, Lambda, SQL, IAM controls, encryption, validation, monitoring, and anonymisation.
-- Emphasis: Security, governance, reliability, and audit visibility.
-- Add later: Security-flow diagram, repository link, sample audit log, and test results.
+- Emphasis: Security, governance, pipeline reliability, and audit visibility.
+- Add later: Security-flow diagram, repository link, synthetic sample data, audit-log example, and test results.
 
-#### Real-Time Data Streaming Pipeline
+#### SQL Data Cleaning and Exploratory Data Analysis
 
-- Problem: Process and visualise a continuous stream of simulated health data.
-- Approach: Kafka or Kinesis concepts, event-driven transformations, S3/database storage, and Power BI or Streamlit.
-- Emphasis: Streaming design, aggregation, performance, and live insights.
-- Add later: Pipeline diagram, repository link, dashboard screenshot, event volume, and latency measurements.
+- Dataset: Layoffs dataset from Kaggle.
+- Problem: Convert inconsistent raw records into an analysis-ready dataset and identify workforce-reduction patterns.
+- Approach: MySQL staging tables, common table expressions, `ROW_NUMBER()`, joins, aggregations, window functions, `DENSE_RANK()`, and rolling totals.
+- Emphasis: Preserving source data, removing duplicates, standardising values, validating transformations, and producing reproducible analysis.
+- Add later: GitHub repository link, data-cleaning flow, before-and-after examples, key queries, visual findings, and a clear data-source citation.
 
-Each project card should show the problem, solution, technology stack, outcome, and links. Create a dedicated project-detail view later if the case studies become too long for the home page.
+Each project card should show the problem, solution, technology stack, outcome, and links. Give the data engineering projects the most visual prominence, while the SQL project demonstrates complementary data analysis capability. Create a dedicated project-detail view later if the case studies become too long for the home page.
 
 ### Experience
 
 Use a simple timeline and prioritise transferable or technical achievements:
 
 - Customer Service Advisor, Hinduja Global Solutions - October 2025 to present
-- IT Educator (Volunteer), Sovereign House GH - November 2024 to present
-- Cover Supervisor, Connex Education Academy - February 2025 to October 2025
-- Data Engineer, DreamSolutionX - January 2023 to January 2024
+- IT Support and Mentor, Sovereign House GH - November 2024 to present
+- Data Engineer, Dream Solution Xtra - August 2023 to August 2024
+- Data Analyst, Nigeria Civil Aviation Authority - January 2023 to January 2024
 
-Give the Data Engineer role the most detail. Summarise the other roles around problem-solving, communication, accurate records, technical support, teaching, and responsibility.
+Give the Data Engineer and Data Analyst roles the most detail. Highlight Azure ETL pipelines, Python and SQL automation, data-quality checks, Power BI and DAX, aviation data analysis, KPI reporting, stakeholder requirements, and technical documentation. Summarise the current roles around technical troubleshooting, accurate records, GDPR-aware service, communication, training, and mentoring.
 
 ### Education
 
@@ -129,9 +134,10 @@ Briefly connect the degrees to analytical thinking, computation, complex systems
 
 Include:
 
-- A short invitation to discuss data engineering opportunities
-- Professional email address
-- GitHub and LinkedIn links once supplied
+- A short invitation to discuss data engineering or data analytics opportunities
+- Email: Mashoodogunbiyi@gmail.com
+- GitHub: github.com/mashoodogunbiyi
+- LinkedIn: linkedin.com/in/ogunbiyi-mashood
 - Optional contact form with name, email, and message fields
 
 Do not publish the full home address or telephone number by default. List the location as Manchester, UK.
@@ -142,7 +148,7 @@ Do not publish the full home address or telephone number by default. List the lo
 - Layout: Generous spacing, clear hierarchy, and readable project cards
 - Colour palette: Dark navy or charcoal with a restrained blue, cyan, or green accent
 - Typography: Accessible sans-serif body text with a strong display heading
-- Visual language: Subtle pipeline, database, cloud, and data-flow motifs
+- Visual language: Subtle pipeline, database, cloud, warehouse, and data-flow motifs
 - Accessibility: Keyboard navigation, visible focus states, semantic HTML, sufficient contrast, useful alt text, and reduced-motion support
 - Responsive behaviour: Design for mobile, tablet, and desktop
 
@@ -161,14 +167,12 @@ If a framework is unnecessary for the first version, semantic HTML, CSS, and Jav
 ## 7. Content and Assets Needed
 
 - Professional profile photo or a deliberate text-only hero
-- Public GitHub profile URL
-- LinkedIn profile URL
 - Public-safe copy of the CV for download
 - Repository URLs for the three featured projects
-- Project screenshots or architecture diagrams
-- Measurable project results where available, such as rows processed, pipeline duration, validation coverage, or streaming latency
+- Project screenshots, data-flow diagrams, architecture diagrams, SQL examples, and dashboard images
+- Measurable project results where available, such as dataset size, rows processed, records cleaned, validation coverage, pipeline duration, query performance, or dashboard outcomes
 
-Never expose credentials, private datasets, AWS account details, API keys, personal addresses, or sensitive healthcare information.
+Never expose credentials, private or confidential datasets, cloud account details, API keys, personal addresses, government-service records, or identifiable operational data.
 
 ## 8. Implementation Phases
 
@@ -182,7 +186,7 @@ Never expose credentials, private datasets, AWS account details, API keys, perso
 ### Phase 2 - Core Content
 
 - Build the hero and About sections
-- Add grouped skills
+- Add grouped data engineering, cloud, analytics, development, and professional skills
 - Create reusable project cards for the three featured projects
 - Add the experience timeline and education section
 - Add contact links and the CV download
@@ -190,7 +194,7 @@ Never expose credentials, private datasets, AWS account details, API keys, perso
 ### Phase 3 - Project Evidence
 
 - Add repository links and screenshots
-- Create architecture diagrams for each project
+- Create workflow or architecture diagrams for each project
 - Rewrite each project as a short case study: problem, decisions, implementation, challenges, and outcome
 - Add measurable results and testing evidence
 
@@ -209,7 +213,7 @@ Never expose credentials, private datasets, AWS account details, API keys, perso
 The first release is complete when:
 
 - All planned sections are present and responsive.
-- The three data engineering projects are easy to find and understand.
+- The three data engineering and analytics projects are easy to find and understand.
 - The site includes working GitHub, LinkedIn, email, and CV links.
 - No private or sensitive information is exposed.
 - Navigation works with a keyboard and the page has good colour contrast.
@@ -219,8 +223,8 @@ The first release is complete when:
 ## 10. Immediate Next Steps
 
 1. Confirm the implementation stack.
-2. Supply GitHub and LinkedIn profile links.
-3. Decide whether to use a profile photo or a text-and-data visual in the hero.
-4. Prepare public repositories and screenshots for the three featured projects.
-5. Create a privacy-safe downloadable CV.
+2. Decide whether to use a profile photo or a technical visual in the hero.
+3. Use Data Engineer as the primary job title in the hero, page title, metadata, and downloadable CV.
+4. Prepare public repositories, screenshots, diagrams, datasets, and measurable results for the three featured projects.
+5. Create a privacy-safe downloadable CV focused on data engineering and analytics, without a public telephone number unless it is intentionally included.
 6. Build the Phase 1 foundation, then add the core content.
