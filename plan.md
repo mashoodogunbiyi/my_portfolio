@@ -2,14 +2,14 @@
 
 ## 1. Goal
 
-I will create a professional portfolio website for myself, Mashood Ogunbiyi, that positions me primarily as a data engineer while showing my ability to work as a data analyst. The site will connect my technical portfolio with my aerospace engineering background and experience communicating technical information.
+Create a professional portfolio website for Mashood Ogunbiyi that positions him primarily as a data engineer while also showing his ability to work as a data analyst. The site should connect his technical portfolio with his aerospace engineering background and experience communicating technical information.
 
 The site should make these points clear within the first few seconds:
 
-- I am a Manchester-based data engineer.
-- I build automated data pipelines, cloud data platforms, and analytics solutions.
-- I can also clean, analyse, and visualise data as a data analyst.
-- My main tools include Python, SQL, PySpark, Databricks, Microsoft Azure, AWS, Power BI, and Tableau.
+- Mashood is a Manchester-based data engineer.
+- He builds automated data pipelines, cloud data platforms, and analytics solutions.
+- He can also clean, analyse, and visualise data as a data analyst.
+- His main tools include Python, SQL, PySpark, Databricks, Microsoft Azure, AWS, Power BI, and Tableau.
 - Visitors can quickly inspect his projects, download his CV, and contact him.
 
 ## 2. Target Audience
